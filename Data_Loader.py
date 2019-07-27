@@ -20,7 +20,6 @@ class Path(object):
 
             return root_dir, output_dir
 
-
 class VideoDataset(Dataset):
     r"""A Dataset for a folder of videos. Expects the directory structure to be
     directory->[train/val/test]->[class labels]->[videos]. Initializes with a list
